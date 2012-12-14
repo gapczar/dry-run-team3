@@ -130,6 +130,7 @@ input[type=submit]:hover, button:hover { border-color: #bbb; box-shadow:1px 1px 
 .notice        { background: #fff6bf; color: #514721; border-color: #ffd324; }
 .success       { background: #e6efc2; color: #264409; border-color: #c6d880; }
 .info          { background: #d5edf8; color: #205791; border-color: #92cae4; }
+.mini 		   { font-size: 11px; margin-top: 0.5em; color: #777; }
 .error a, .alert a { color: #8a1f11; }
 .notice a          { color: #514721; }
 .success a         { color: #264409; }

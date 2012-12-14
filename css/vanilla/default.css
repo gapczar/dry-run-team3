@@ -8,10 +8,12 @@ ul { list-style: none; margin: 0; padding: 0; }
 ul li { margin-bottom: 0.5em; }
 
 /* header */
-header { background-color: #fff; }
+header { background-color: #fff; border-radius: 10px 10px 0 0; }
 header .box { padding: 1em 2em; }
-header ul li { float: left; margin:0 0 0 1em; }
-.breadcrumb .box { padding: 1em 0; }
+header ul li { float: left; margin:0 0 0 1em; color: #888; }
+.breadcrumb + header { border-radius: 0; }
+.breadcrumb { border-radius: 10px 10px 0 0; }
+.breadcrumb .box { padding: 1em 2em; background-color: #fff; }
 
 /* arrow */
 header:first-child {  background-image: none; }
@@ -20,7 +22,11 @@ article { background: #fff url('../../images/arrow.png') no-repeat 26px top; }
 /* content */
 .row { border-radius: 10px; }
 .box { padding: 3em 2em 2em; }
-section { border-bottom: 3px solid #eee; }
+.boxlist { padding: 1em 1em; background-color: #f7f7f7; border-radius: 7px; margin-bottom: 1em; }
+section { border-bottom: 1px solid #eee; }
+
+article:last-child { border-radius: 0 0 10px 10px; }
+article:last-child section:last-child { border: none; }
 
 /* create */
 .create.poll { background-color: #f7f7f7; text-align: center; }
