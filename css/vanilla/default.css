@@ -1,0 +1,35 @@
+body { background-color: #eee; margin: 2em; }
+img { float: left; }
+img.fr { margin-left: 1em; }
+.fl { float: left; }
+.fr { float: right; }
+
+ul { list-style: none; margin: 0; padding: 0; }
+ul li { margin-bottom: 0.5em; }
+
+/* header */
+header { background-color: #fff; }
+header .box { padding: 1em 2em; }
+header ul li { float: left; margin:0 0 0 1em; }
+.breadcrumb .box { padding: 1em 0; }
+
+/* arrow */
+header:first-child {  background-image: none; }
+article { background: #fff url('../../images/arrow.png') no-repeat 26px top; }
+
+/* content */
+.row { border-radius: 10px; }
+.box { padding: 3em 2em 2em; }
+section { border-bottom: 3px solid #eee; }
+
+/* create */
+.create.poll { background-color: #f7f7f7; text-align: center; }
+.create button, .create .button { background-color: #FF4848; background-image: none; color: #fff; border: none; padding: 7px 10px 4px; font-size: 1.5em; margin-bottom: 0.5em; border-radius:4px; }
+.create.login .box { padding: 3em 8em 2em; }
+
+/* list */
+.list li { padding: 1em 0; border-bottom: 1px solid #eee; }
+.list span { float: right; }
+.list li:last-child { border-bottom: none; margin-bottom: 0; }
+.invite section { padding-bottom: 2em; }
+.invite a { color: #000; text-decoration: none; }
